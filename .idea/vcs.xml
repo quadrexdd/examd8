@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codebase/web/libraries/jquery.cycle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codebase/web/libraries/jquery.hoverIntent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codebase/web/libraries/json2" vcs="Git" />
   </component>
 </project>
