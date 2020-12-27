@@ -1,0 +1,8 @@
+uuid: 34e83013-efa9-4e58-aebb-d9cdb5d15825
+langcode: en
+status: true
+dependencies: {  }
+name: 'Services tags'
+vid: services_tags
+description: ''
+weight: 0

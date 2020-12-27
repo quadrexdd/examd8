@@ -1,0 +1,18 @@
+uuid: e0e6ccbb-d18f-4ba7-97f0-3858638673d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_promoted_to_homepage_block
+field_name: field_promoted_to_homepage_block
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

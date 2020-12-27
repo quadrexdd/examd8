@@ -1,0 +1,8 @@
+uuid: f7eccb9a-7309-4269-97fc-d9149172f08d
+langcode: en
+status: true
+dependencies: {  }
+id: header_left_block_with_bg_color
+label: 'Header left block with bg color'
+revision: 0
+description: ''

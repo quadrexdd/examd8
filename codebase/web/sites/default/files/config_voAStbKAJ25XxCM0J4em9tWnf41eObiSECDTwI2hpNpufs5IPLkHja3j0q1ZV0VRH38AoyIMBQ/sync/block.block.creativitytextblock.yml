@@ -1,0 +1,31 @@
+uuid: f14674de-d57f-4d06-b96d-182fe8290b23
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6d69a78e-4578-47c5-b9e9-90f759be7a35'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_custom
+id: creativitytextblock
+theme: bootstrap_custom
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:6d69a78e-4578-47c5-b9e9-90f759be7a35'
+settings:
+  id: 'block_content:6d69a78e-4578-47c5-b9e9-90f759be7a35'
+  label: 'Creativity text block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

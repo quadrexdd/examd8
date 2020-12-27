@@ -1,0 +1,23 @@
+uuid: 5c143f53-101a-45f4-8f87-e848de12ef49
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_link_block_with_image
+    - field.storage.block_content.field_homepage_link
+  module:
+    - link
+id: block_content.home_link_block_with_image.field_homepage_link
+field_name: field_homepage_link
+entity_type: block_content
+bundle: home_link_block_with_image
+label: 'Homepage link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

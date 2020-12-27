@@ -1,0 +1,29 @@
+uuid: e977b235-74b0-4936-8041-353dec4f194b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_links
+    - field.storage.block_content.field_social_link_and_icon
+  module:
+    - entity_reference_revisions
+id: block_content.social_links.field_social_link_and_icon
+field_name: field_social_link_and_icon
+entity_type: block_content
+bundle: social_links
+label: 'Social link and icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      social_links:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

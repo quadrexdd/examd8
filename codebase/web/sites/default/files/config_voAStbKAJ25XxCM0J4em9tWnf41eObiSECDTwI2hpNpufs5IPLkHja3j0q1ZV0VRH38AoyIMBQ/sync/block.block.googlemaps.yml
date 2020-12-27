@@ -1,0 +1,31 @@
+uuid: 9f689a1c-5ce6-40ce-85a6-10ce206ff94c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2b41eb22-2414-428a-97ea-38942fe13095'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_custom
+id: googlemaps
+theme: bootstrap_custom
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:2b41eb22-2414-428a-97ea-38942fe13095'
+settings:
+  id: 'block_content:2b41eb22-2414-428a-97ea-38942fe13095'
+  label: 'Google maps'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

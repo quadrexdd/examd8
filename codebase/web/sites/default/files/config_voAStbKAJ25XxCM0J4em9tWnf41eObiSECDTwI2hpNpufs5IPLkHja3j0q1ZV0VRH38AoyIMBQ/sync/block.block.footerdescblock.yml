@@ -1,0 +1,31 @@
+uuid: 263c861b-8196-4ed3-b852-95048433776a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header_left_block_with_bg_color:e44202a2-056c-43f2-91a0-301c08d94794'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap_custom
+id: footerdescblock
+theme: bootstrap_custom
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e44202a2-056c-43f2-91a0-301c08d94794'
+settings:
+  id: 'block_content:e44202a2-056c-43f2-91a0-301c08d94794'
+  label: 'Footer desc block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

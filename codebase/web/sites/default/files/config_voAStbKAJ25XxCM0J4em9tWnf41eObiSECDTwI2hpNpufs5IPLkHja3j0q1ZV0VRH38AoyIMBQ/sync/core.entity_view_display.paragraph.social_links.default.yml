@@ -1,0 +1,32 @@
+uuid: b01a589a-e1de-4cac-af1a-5d856745431f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_links.field_sociakl_
+    - field.field.paragraph.social_links.field_social_icon
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - image
+    - linked_field
+id: paragraph.social_links.default
+targetEntityType: paragraph
+bundle: social_links
+mode: default
+content:
+  field_social_icon:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: field
+        destination: field_sociakl_
+        advanced: {  }
+    type: image
+    region: content
+hidden:
+  field_sociakl_: true

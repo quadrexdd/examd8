@@ -1,0 +1,64 @@
+uuid: 518344b5-1cf5-4f77-af32-0c866e1f44da
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.body
+    - field.field.node.team.field_like_this_faggot
+    - field.field.node.team.field_member_photo
+    - field.field.node.team.field_promoted_to_homepage_block
+    - field.field.node.team.field_role
+    - field.field.node.team.field_social_links
+    - node.type.team
+  module:
+    - entity_reference_revisions
+    - image
+    - likebtn
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  field_like_this_faggot:
+    type: likebtn_formatter
+    weight: 3
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_member_photo:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_role:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_social_links:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_promoted_to_homepage_block: true

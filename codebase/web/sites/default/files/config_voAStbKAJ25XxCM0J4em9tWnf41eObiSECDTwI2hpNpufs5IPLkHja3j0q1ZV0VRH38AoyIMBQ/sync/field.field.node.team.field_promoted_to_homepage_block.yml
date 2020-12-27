@@ -1,0 +1,23 @@
+uuid: f4ed671c-2192-4200-adfa-52636a07d543
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promoted_to_homepage_block
+    - node.type.team
+id: node.team.field_promoted_to_homepage_block
+field_name: field_promoted_to_homepage_block
+entity_type: node
+bundle: team
+label: 'Promoted to homepage block?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: e50abf2d-b9eb-4dff-940e-0cc794ed149d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_use_in_slider_
+    - node.type.clients
+id: node.clients.field_use_in_slider_
+field_name: field_use_in_slider_
+entity_type: node
+bundle: clients
+label: 'Use in slider?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
