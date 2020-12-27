@@ -1,8 +1,0 @@
-uuid: 7be28d7e-9431-491b-9da2-dd45457325a5
-langcode: en
-status: true
-dependencies: {  }
-id: home_link_block_with_image
-label: 'Home link block with image'
-revision: 0
-description: ''

@@ -1,8 +1,0 @@
-uuid: e4e174c4-fe1e-4fb5-ac10-891cbc7c4c55
-langcode: en
-status: true
-dependencies: {  }
-name: 'Project tags'
-vid: project_tags
-description: ''
-weight: 0
