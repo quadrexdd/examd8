@@ -88,3 +88,6 @@ div.input-group{
   cursor: pointer;
   border-color: darkgray;
 }
+div.view-content{
+  display: flex;
+}
